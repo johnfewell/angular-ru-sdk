@@ -153,11 +153,11 @@ expect(array.map(pick('c'))).toEqual([undefined, undefined]);
 -   `hasItems`
 
 ```typescript
-hasNoItem([1]); // true
-hasNoItem([1, 2, 3]); // true
-hasNoItem([]); // false
-hasNoItem(null); // false
-hasNoItem(undefined); // false
+hasItems([1]); // true
+hasItems([1, 2, 3]); // true
+hasItems([]); // false
+hasItems(null); // false
+hasItems(undefined); // false
 ```
 
 -   `hasNoItems`
